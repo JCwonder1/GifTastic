@@ -1,4 +1,4 @@
-TODO:
+<!--TODO:
 1. Create a site mockup
 2. Build HTML templete and link Bootstrap, Css override, JS file
 3. Build the HTML template with image placeholder
@@ -19,7 +19,7 @@ Redo readme to answer:
     How users can get started with the project
     Where users can get help with your project
     Who maintains and contributes to the project
-Add page to portfolio
+Add page to portfolio -->
 <!doctype html>
 <html lang="en">
 <head>
@@ -28,14 +28,125 @@ Add page to portfolio
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Search Fail Gif's</title>
+    <link href="https://fonts.googleapis.com/css?family=Coiny|Lato|ZCOOL+QingKe+HuangYou" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/overrides.css">
 </head>
 
 <body>
+<div class="container-fluid">
+
+    <div class="container-fluid header p-1">
+        <div class="text-center title">
+            <h1>Chose a Fail topic below or search your own!!</h1>
+        </div>
+    </div>
+
+
+    <div class="row text-center mt-4 ">
+        <div class="col-md-3">
+            <h2 class="topic-headers">Animal Fails</h2>
+            <div class="m-2 border-right">
+                <button class="btn-primary btn m-1" datatype="animalFails">Dogs</button>
+                <button class="btn-primary btn m-1" datatype="animalFails">Dogs</button>
+                <button class="btn-primary btn m-1" datatype="animalFails">Dogs</button>
+                <button class="btn-primary btn m-1" datatype="animalFails">Dogs</button>
+                <button class="btn-primary btn m-1" datatype="animalFails">Dogs</button>
+                <button class="btn-primary btn m-1" datatype="animalFails">Dogs</button>
+                <button class="btn-primary btn m-1" datatype="animalFails">Dogs</button>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <h2 class="topic-headers">Sport Fails</h2>
+            <div class="m-2 border-right">
+                <button class="btn-primary btn m-1" datatype="sportFails">Dogs</button>
+                <button class="btn-primary btn m-1" datatype="sportFails">Cat</button>
+                <button class="btn-primary btn m-1" datatype="sportFails">Dogs</button>
+                <button class="btn-primary btn m-1" datatype="sportFails">Cat</button>
+                <button class="btn-primary btn m-1" datatype="sportFails">Dogs</button>
+                <button class="btn-primary btn m-1" datatype="sportFails">Cat</button>
+                <button class="btn-primary btn m-1" datatype="sportFails">Dogs</button>
+                <button class="btn-primary btn m-1" datatype="sportFails">Cat</button>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <h2 class="topic-headers">Epic Fails</h2>
+            <div class="m-2 border-right">
+                <button class="btn-primary btn m-1" datatype="epicFails">Dogs</button>
+                <button class="btn-primary btn m-1" datatype="epicFails">Cat</button>
+                <button class="btn-primary btn m-1" datatype="epicFails">Dogs</button>
+                <button class="btn-primary btn m-1" datatype="epicFails">Cat</button>
+                <button class="btn-primary btn m-1" datatype="epicFails">Dogs</button>
+                <button class="btn-primary btn m-1" datatype="epicFails">Cat</button>
+                <button class="btn-primary btn m-1" datatype="epicFails">Dogs</button>
+                <button class="btn-primary btn m-1" datatype="epicFails">Cat</button>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <h2 class="topic-headers">Your Fails</h2>
+            <div class="row userInput">
+                <button class="btn-primary btn m-1" datatype="epicFails">Dogs</button>
+            </div>
+            <div class="row mt-2">
+                <div class="input-group mb-3 mr-4">
+                    <input type="text" class="form-control" placeholder="Search Fail Gif's" aria-label="userseearch" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row mx-auto flex-md-fill">
+            <div class="text-center m-4">
+                <img src="https://via.placeholder.com/200" class="rounded" alt="...">
+            </div>
+            <div class="text-center m-4">
+                <img src="https://via.placeholder.com/200" class="rounded" alt="...">
+            </div>
+            <div class="text-center m-4">
+                <img src="https://via.placeholder.com/200" class="rounded" alt="...">
+            </div>
+            <div class="text-center m-4">
+                <img src="https://via.placeholder.com/200" class="rounded" alt="...">
+            </div>
+            <div class="text-center m-4">
+                <img src="https://via.placeholder.com/200" class="rounded" alt="...">
+            </div>
+        </div>
+        <div class="row mx-auto flex-md-fill">
+            <div class="text-center m-4">
+                <img src="https://via.placeholder.com/200" class="rounded" alt="...">
+            </div>
+            <div class="text-center m-4">
+                <img src="https://via.placeholder.com/200" class="rounded" alt="...">
+            </div>
+            <div class="text-center m-4">
+                <img src="https://via.placeholder.com/200" class="rounded" alt="...">
+            </div>
+            <div class="text-center m-4">
+                <img src="https://via.placeholder.com/200" class="rounded" alt="...">
+            </div>
+            <div class="text-center m-4">
+                <img src="https://via.placeholder.com/200" class="rounded" alt="...">
+            </div>
+        </div>
+    </div>
 
 
 
+
+
+
+
+
+
+</div>
 
 
 <!--Bootstrap JS and jQuery-->

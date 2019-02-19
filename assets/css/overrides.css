@@ -1,0 +1,27 @@
+/*---------- Global -------------*/
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+.title{
+    color: #9013FE;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+}
+
+.header{
+    background-color: #9BC995;
+}
+
+.topic-headers{
+    color: #9013FE;
+}
+
+.btn{
+    background-color: #92D8E4;
+    border-radius: 38.5px;
+    border: 2px solid #337480;
+}
+
