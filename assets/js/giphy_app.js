@@ -61,11 +61,10 @@ buildPresetButtons(epicFails, 'epicFails');
 
 /*---------Event Listeners------*/
 
-$('button').on('click', function(evt){
-
+$(document).on('click', 'button',function(evt){
 
     var topicPressed = evt.currentTarget.innerHTML.toLocaleLowerCase();
-
+    console.log(this.value);
 
     if (topicPressed === 'submit'){
        var userValue = $('input').val();
@@ -77,6 +76,8 @@ $('button').on('click', function(evt){
 
     }else{
         $("#giphyPlacement").empty();
+
+
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
             topicPressed + " fail&api_key=WRY8y1li18n1949dMqWmTduGQn8J8wtj&limit=10";
 
@@ -112,7 +113,7 @@ $('button').on('click', function(evt){
                 });
 
 
-                console.log(data);
+
             });
 
     };
